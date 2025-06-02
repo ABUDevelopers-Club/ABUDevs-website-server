@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Migrations (optional to ignore versions if you prefer tracking them)
+migrations/versions/
+
+# VSCode or other editor files
+.vscode/
+.idea/
+
+# Test coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite DB (optional)
+*.db
+
+# Logs
+*.log
