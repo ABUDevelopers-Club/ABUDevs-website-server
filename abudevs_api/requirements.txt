@@ -5,4 +5,4 @@ Flask-JWT-Extended
 python-dotenv
 marshmallow
 pytest
-
+flask-marshmallow
