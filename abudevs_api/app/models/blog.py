@@ -4,6 +4,7 @@ from datetime import datetime
 
 class Blog(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    img_url = db.Column(db.String(200))
     track = db.Column(db.String(100), nullable=False)
     title = db.Column(db.String(150), nullable=False)
     subtitle = db.Column(db.String(150))
