@@ -9,7 +9,7 @@ db = SQLAlchemy()
 migrate = Migrate()
 jwt = JWTManager()
 
-def create_app(config_name='development'):
+def create_app(config_name='production'):
     app = Flask(__name__)
     app.config.from_object(config_by_name[config_name])
 
